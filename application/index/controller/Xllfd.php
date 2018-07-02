@@ -34,7 +34,7 @@ class Xllfd extends Controller
             //开始报名签到
             $info=$Model->setXllFdSave($telephone);
             if($info){
-                echo $this->returnApp($info,200);exit;
+                echo $this->returnApp($User,200);exit;
             }else{
                 $data['number']="签到失败";
                 echo $this->returnApp($data,202);exit;
