@@ -80,4 +80,8 @@ class Xllfd extends Controller
             echo $this->returnApp("确认失败",202);exit;
         }
     }
+    //进入后台页面
+    public function actionAdmin(){
+        return $this->fetch('Xllfd/admin');
+    }
 }
