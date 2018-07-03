@@ -66,7 +66,7 @@ class Xllfd extends Controller
         }
     }
     //确认礼物领取
-    public function aactionConfirmSign(){
+    public function actionConfirmSign(){
         $xid=input("post.xid");
         if(empty($xid)){
             $data['number']="参数有误";
