@@ -23,6 +23,7 @@ class XllFdModel extends Model
     //将未签到人员 修改为 已签到人员
     public function setXllFdSave($telephone){
         $param['is_status']='1';
+        $param['sign_time']=date("Y-m-d H:i:s",time());
         return Db::table("sky_xll_fd")->where("telephone",$telephone)->update($param);
     }
     // 现场报名
@@ -34,11 +35,11 @@ class XllFdModel extends Model
     //学乐乐用户列表页
     public function getXllList(){
         //获取已签到的用户列表
-        $AlreadySign=Db::table("sky_xll_fd")->where("is_status",'1')->select();
+        $AlreadySign=Db::table("sky_xll_fd")->where("is_status",'1')->order("sign_time desc")->select();
         //签到并领取礼物的用户列表
-        $AlreadyReceived=Db::table("sky_xll_fd")->where("is_status",'2')->select();
+        $AlreadyReceived=Db::table("sky_xll_fd")->where("is_status",'2')->order("confirm_time desc")->select();
         //未报名的用户列表
-        $NotEnrolment=Db::table("sky_xll_fd")->where("is_status",'3')->select();
+        $NotEnrolment=Db::table("sky_xll_fd")->where("is_status",'3')->order("ctime desc")->select();
         // 用户信息集合
         $result['AlreadySign']=$AlreadySign;
         $result['AlreadyReceived']=$AlreadyReceived;
@@ -49,6 +50,7 @@ class XllFdModel extends Model
     //学乐乐 领取礼物确认
     public function setXllConfirm($xid){
         $param['is_status']='2';
+        $param['confirm_time']=date("Y-m-d H:i:s",time());
         return Db::table("sky_xll_fd")->where("id",$xid)->update($param);
     }
 }
