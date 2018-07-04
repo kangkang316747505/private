@@ -1,0 +1,56 @@
+.box {
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    line-height: 30px;
+    text-align: center;
+}
+.box::-webkit-scrollbar {
+    display: none;
+}
+tr>th{
+    text-align: center;
+}
+.gift{
+    text-align: center;
+    position: fixed;
+    width: 15%;
+}
+.notSignin{
+    position: fixed;
+    width: 80%;
+}
+.table{
+    margin-top: 40px;
+}
+.notenroll{
+    height: 810px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.notenroll::-webkit-scrollbar {
+    display: none;
+}
+.box .notsin{
+    margin-top: -20px;
+}
+.notpull{
+    margin-top: 40px;
+}
+.table>tbody>tr>.thont:nth-child(1){
+        width: 18%;
+}
+.table>tbody>tr>.thont:nth-child(2){
+    width: 20.5%;
+}
+.table>tbody>tr>.thont:nth-child(3){
+        width: 24%;
+}
+.table>tbody>tr>.thont:nth-child(4){
+    width: 19%;
+}
+/* 第二个 */
+.box .trbute{
+    margin-top: -20px;
+}
+/* 未报名 */

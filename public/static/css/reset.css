@@ -1,0 +1,102 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    display: block;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+b,
+i,
+em {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+a {
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.center {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.clearFix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input,
+button {
+    outline: none;
+}
