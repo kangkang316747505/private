@@ -4,7 +4,7 @@ $(function(){
     function signingift() {
         $.ajax({
         type: "POST",
-        url: "http://www.activity.com/index/xllfd/actionXllList",
+            url: "http://activity.tinsine.com.cn/index/xllfd/actionXllList",
         data: {},
         dataType: 'html',
         success: function (data) {
@@ -62,7 +62,7 @@ $(function(){
         console.log(id);
         $.ajax({
             type: "POST",
-            url: "http://www.activity.com/index/xllfd/actionConfirmSign",
+            url: "http://activity.tinsine.com.cn/index/xllfd/actionConfirmSign",
             data: {
                 "xid": id,
             },

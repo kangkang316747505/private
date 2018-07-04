@@ -32,7 +32,7 @@ $(function(){
         var telephone = $(".case").val();
         $.ajax({
             type: "POST",
-            url: "http://www.activity.com/index/xllfd/actionSignVerify",
+            url: "http://activity.tinsine.com.cn/index/xllfd/actionSignVerify",
             data: {
                 "telephone":telephone,
             },
