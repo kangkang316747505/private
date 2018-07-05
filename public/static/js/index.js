@@ -1,5 +1,20 @@
 $(function(){
-   
+    isIPhoneX();
+    function isIPhoneX() {
+        var u = navigator.userAgent;
+        var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isIOS) {
+            if (screen.height == 812 && screen.width == 375) {
+                $('.gather').css({
+                    "height":"21.65rem"
+                })
+            } else {
+                $('.gather').css({
+                    "height": "100%"
+                })
+            }
+        }
+    }
     vailPhone();
     var reveal = $(".mallmask").css({"padding": "0.3rem 0.5rem"});
     //判断手机号

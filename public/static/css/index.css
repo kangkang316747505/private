@@ -2,28 +2,26 @@ html,body {
     font-family:  "Microsoft Yahei";
     color: #666;
     background-color: #fff;
-    line-height: 18px;
 }
 .gather{
     width: 100%;
-    height: 17.786667rem;
-    position: relative;
+    background:#e6bb1f;
+    position:relative;
 }
 .gather .learn {
     width: 100%;
-    height: 17.786667rem;
     position: relative;
 }
 .gather .learn img{
-     width: 100%;
-     height: 17.786667rem;
+    width: 100%;
+    height:16.08rem /* 1206/75 */;
 }
 .gather .learn .case{
     width: 8rem;
     height: .933333rem /* 70/75 */;
     background: #ffffff;
     position: absolute;
-    top: 14.2rem;
+    top: 78%;
     left: 12%;
     border: 1px solid #fee347;
     border-radius: 0.4rem;
@@ -39,7 +37,7 @@ html,body {
     width: 3rem;
     height: 1.013333rem /* 76/75 */;
     position: absolute;
-    top: 15.5rem;
+    top: 86%;
     left: 36%;
     border-radius: .6rem;
     border: 1px solid #fee347;
