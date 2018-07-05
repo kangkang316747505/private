@@ -2,11 +2,13 @@ html,body {
     font-family:  "Microsoft Yahei";
     color: #666;
     background-color: #fff;
+    
 }
 .gather{
     width: 100%;
     background:#e6bb1f;
     position:relative;
+    height: 16.8rem;
 }
 .gather .learn {
     width: 100%;

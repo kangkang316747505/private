@@ -10,11 +10,12 @@ $(function(){
                 })
             } else {
                 $('.gather').css({
-                    "height": "100%"
+                    "height": "16.8rem"
                 })
             }
         }
     }
+    function 
     vailPhone();
     var reveal = $(".mallmask").css({"padding": "0.3rem 0.5rem"});
     //判断手机号
