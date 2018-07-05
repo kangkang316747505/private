@@ -23,28 +23,28 @@ $(function(){
         var phone = $(".case").val();
         var myreg = /^1[34578]\d{9}$/;
             if (phone == '') {
-                $('.mallmask').html('手机号码不能为空');
-                reveal;
-                $(".mallmask").show().delay(3000).hide(300);
-            }else if (phone.length != 11) {
-                reveal
-                $('.mallmask').html('手机号码未输入指定位数');
-                reveal;
-                $(".mallmask").show().delay(3000).hide(300);
-            }else if (!myreg.test(phone)) {
-                $('.mallmask').html('手机号码不正确');
+                $('.mallmask2').html('手机号码不能为空');
                 reveal;
                 $(".mallmask").show().delay(3000).hide(300);
             }
             else if (myreg.test(phone)) {
-                reveal;
                 checkPhoneIsExist();
+            }
+            else if (phone.length != 11) {
+                reveal;
+                $('.mallmask2').html('手机号码未输入指定位数');
+                $(".mallmask").show().delay(3000).hide(300);
+            }else if (!myreg.test(phone)) {
+                reveal;
+                $('.mallmask2').html('手机号码不正确');
+                $(".mallmask").show().delay(3000).hide(300);
             }
         }
     )}
 
     function checkPhoneIsExist() {
         var telephone = $(".case").val();
+        console.log(telephone);
         $.ajax({
             type: "POST",
             url: "http://activity.tinsine.com.cn/index/xllfd/actionSignVerify",
