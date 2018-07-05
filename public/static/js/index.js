@@ -44,7 +44,6 @@ $(function(){
 
     function checkPhoneIsExist() {
         var telephone = $(".case").val();
-        console.log(telephone);
         $.ajax({
             type: "POST",
             url: "http://activity.tinsine.com.cn/index/xllfd/actionSignVerify",
