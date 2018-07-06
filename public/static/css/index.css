@@ -1,30 +1,33 @@
 html,body {
     font-family:  "Microsoft Yahei";
-    color: #666;
-    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image : url('/static/img/back.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
     
 }
 .gather{
-    width: 100%;
-    background:#e6bb1f;
     position:relative;
-    height: 16.8rem;
 }
 .gather .learn {
-    width: 100%;
     position: relative;
-}
-.gather .learn img{
-    width: 100%;
-    height:16.08rem /* 1206/75 */;
 }
 .gather .learn .case{
     width: 8rem;
-    height: .933333rem /* 70/75 */;
+    height: 1rem /* 70/75 */;
     background: #ffffff;
-    position: absolute;
-    top: 78%;
-    left: 12%;
+    position: fixed;
+    top:80%;
+    left:10%;
+    /* top: 83%;
+    left: 50%; */
+    /* transform:translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); */
     border: 1px solid #fee347;
     border-radius: 0.4rem;
     font-size: .4rem /* 30/75 */;
@@ -38,9 +41,15 @@ html,body {
     cursor: pointer;
     width: 3rem;
     height: 1.013333rem /* 76/75 */;
-    position: absolute;
-    top: 86%;
-    left: 36%;
+    position: fixed;
+    top:88%; 
+    left:35%;
+    /* top: 91%;
+    left: 50%; */
+    /* transform:translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); */
     border-radius: .6rem;
     border: 1px solid #fee347;
     font-size: .426667rem;
