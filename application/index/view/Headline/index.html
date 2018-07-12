@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>今日头条</title>
+    <link rel="stylesheet" type="text/css" href="/static/headline/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/headline/css/animate.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,
+        body {
+            height: 100%;
+            font-size: 16px;
+        }
+        .swiper-container {
+            height: 100%;
+        }
+        .touline{
+
+            background-image: url('/static/headline/img/shoot/back.jpg');
+            -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+        }
+        .wantto {
+
+            background-image: url('/static/headline/img/2.png');
+            -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+            position: relative;
+        }
+        .wantto .watch{
+            width: 5rem;
+            height: 5rem;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            z-index: 100;
+        }
+        .logo{
+
+            width: 5rem;
+            height: 1.6rem;
+            position: absolute;
+            top: 4.5%;
+            right: 7%;
+        }
+        .title{
+
+            width: 20rem;
+            position: absolute;
+            top: 32%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+        .Inv{
+
+            width: 8.44rem;
+            position: absolute;
+            top: 67.5%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+        .concat{
+
+            width: 11.57rem;
+            position: absolute;
+            top: 76.5%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+        .bottom-logo{
+
+            width: 22.5rem;
+            position: absolute;
+            top: 96%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%); 
+        }
+        .wantto .titlelogo{
+
+            width: 5.82rem;
+            position: absolute;
+            top: 2%;
+            left: 7%;
+        }
+        .cont-one{
+
+            width: 18rem;
+            position: absolute;
+            top: 19%;
+            left: 53%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%); 
+        }
+        .cont-nr{
+            pointer-events: none;
+    vertical-align: sub;
+            width: 19rem;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%); 
+        }
+        .navp{
+            pointer-events: none;
+            vertical-align: sub;
+           width: 18.75rem;
+            position: absolute;
+            top: 71%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);  
+        }
+        .arrow1{
+            width: 2rem;
+            height: 2.5rem;
+        }
+        .arrow{
+            width: 2rem;
+            height: 2.5rem;
+            position: absolute;
+            top: 88%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide touline">
+                <img class="logo" src="/static/headline/img/logo.png" alt="">
+                <img class="title" src="/static/headline/img/shoot/title.png" alt="">
+                <img class="Inv" src="/static/headline/img/shoot/Invitation.png" alt="">
+                <img class="concat" src="/static/headline/img/shoot/concat.png" alt="">
+                <div class="arrow">
+                    <div class="swiper-container arrowp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">< img class="arrow1" src="/static/headline/img/shoot/arrow1.png" alt=""></div>
+                            <div class="swiper-slide">< img class="arrow1" src="/static/headline/img/shoot/arrow2.png" alt=""></div>
+                            <div class="swiper-slide">< img class="arrow1" src="/static/headline/img/shoot/arrow3.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <img class="bottom-logo" src="/static/headline/img/shoot/bottom-logo.png" alt="">
+            </div>
+            <div class="swiper-slide wantto">
+                <img class="logo" src="/static/headline/img/logo.png" alt="">
+                <img class="titlelogo" src="/static/headline/img/shoot/title.png" alt="">
+                <!-- <img class="cont-one" src="/static/headline/img/shoot/cont-one.png" alt="">
+                <img class="cont-nr" src="/static/headline/img/shoot/cont-nr.png" alt=""> -->
+               <img class="watch" src="/static/headline/img/shoot/watch.png" alt="">
+               <!-- <img class="navp" src="/static/headline/img/shoot/nav.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="/static/headline/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/static/headline/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="/static/headline/js/swiper.animate1.0.2.min.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        var mySwiper = new Swiper('.needs', {
+            direction: 'vertical',
+            lazyLoading: true,
+            lazyLoadingInPrevNext: true,
+            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            },
+            observer: true,//修改swiper自己或子元素时，自动初始化swiper
+            observeParents: true,
+        })
+        var mySwiper = new Swiper('.arrowp', {
+            direction: 'vertical',
+            loop : true,
+            autoplay : 500,
+            effect : 'fade',
+        });
+    }
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<script>
+    wx.config({
+        appId: "<?php echo $signPackage['appId'];?>",
+        timestamp: "<?php echo $signPackage['timestamp'];?>",
+        nonceStr: "<?php echo $signPackage['nonceStr'];?>",
+        signature: "<?php echo $signPackage['signature'];?>",
+        jsApiList: [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo'
+        ]
+    });
+    /*
+     * 注意：
+     * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+     * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+     * 3. 完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+     *
+     * 如有问题请通过以下渠道反馈：
+     * 邮箱地址：weixin-open@qq.com
+     * 邮件主题：【微信JS-SDK反馈】具体问题
+     * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+     */
+    wx.ready(function () {
+        // 1 判断当前版本是否支持指定 JS 接口，支持批量判断
+        wx.checkJsApi({
+            jsApiList: [
+                'getNetworkType',
+                'previewImage',
+                'onMenuShareTimeline',
+                'onMenuShareAppMessage',
+                'onMenuShareQQ',
+                'onMenuShareWeibo'
+            ],
+            success: function (res) {
+               // alert(JSON.stringify(res));
+            }
+        });
+        var shareData = {
+            title: '当摄影遇上公益',
+            desc: '2018年7月12日14:00诚挚邀请您参加今日头条图片公益新闻发布会',
+            link: 'http://activity.tinsine.com/index/Headline',
+            imgUrl: 'http://activity.tinsine.com/static/headline/img/thumbnail.jpg',
+           /* trigger: function (res) {
+                alert('用户点击发送给朋友');
+            },
+            success: function (res) {
+                alert('已分享');
+            },
+            cancel: function (res) {
+                alert('已取消');
+            },
+            fail: function (res) {
+                alert(JSON.stringify(res));
+            }*/
+        };
+        wx.onMenuShareAppMessage(shareData);
+        wx.onMenuShareTimeline(shareData);
+        wx.onMenuShareQQ(shareData);
+        wx.onMenuShareWeibo(shareData);
+    });
+    wx.error(function (res) {
+        //alert(res.errMsg);
+    });
+</script>
+</html>
