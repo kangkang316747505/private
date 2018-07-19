@@ -1,0 +1,247 @@
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+header .dun {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+}
+
+header .dun .spot {
+    margin-left: 390px;
+    padding: 20px 30px;
+}
+header .dun .spot span{
+   margin: 0 28px; 
+   background: #FFFFFF;
+}
+header .dun .dunk .dunkl {
+    z-index: 0;
+    background:url() no-repeat center center;
+    width: 100%;
+    height: 500px;
+}
+header .dun .swipL{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 999;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    background: url('../img/arrowz.png')no-repeat -84px 50%;
+}
+header .dun .swipL:hover {
+    cursor: pointer;
+    background: url('../img/arrowz.png')no-repeat 0px 50%;
+}
+
+header .dun .swipR {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    z-index: 999;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    background: url('../img/arrowz.png')no-repeat -125px 50%;
+}
+header .dun .swipR:hover {
+    cursor: pointer;
+    background: url('../img/arrowz.png')no-repeat -42px 50%;
+}
+@media screen and (min-width:1920px) {
+    header .dun .swipR {
+        right: 10%;
+    }
+    header .dun .swipL {
+        left: 10%;
+    }
+}
+@media screen and (min-width:1663px) {
+    header .dun .swipR {
+        right: 10%;
+    }
+    header .dun .swipL {
+        left: 10%;
+    }
+}
+@media screen and (min-width:1366px) {
+    header .dun .swipR {
+        right: 8%;
+    }
+
+    header .dun .swipL {
+        left: 8%;
+    }
+}
+main {
+    width: 100%;
+    background: rgba(248, 248, 248, 1);
+}
+
+main .content2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main .content2 ul {
+    margin-left: -20px;
+    overflow: hidden;
+    padding-bottom: 130px;
+}
+
+main .content2 ul li {
+    float: left;
+    width: 380px;
+    height: 304px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin-top: 43px;
+    margin-left: 20px;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main .content2 ul .li:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .19);
+    transform: translate3d(0, -5px, 0);
+    transition: all .3s cubic-bezier(.55, 0, .1, 1);
+}
+main .content2 ul li .subgrade {
+      overflow: hidden;
+      width: 380px;
+      height: 210px;
+}
+
+main .content2 ul li .subgrade .limit{
+    width: 100%;
+    pointer-events: none;
+    height: 100%;
+}
+
+main .content2 ul li .subgrade img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle; 
+   
+}
+
+main .content2 ul li .details {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 24px;
+}
+
+main .content2 ul li .details .p1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+main .content2 ul li .details .p1 .nkj{
+    float: left;
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+main .content2 ul li .details .p1 .time {
+    float: right;
+}
+
+main .content2 ul li .details .p2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+main #page{
+        position: relative;
+        top: -50px;
+        left: 56%;
+}
+main #page .pageButton {
+    outline:none;
+    margin-left: 30px;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: 0px;
+    background: #F8F8F8;
+    color: #666666;
+    cursor: pointer;
+}
+main #page .activity{
+    background: #E12E35;
+    outline:none;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: 0px;
+    color:#F8F8F8;
+    cursor: pointer;
+}
+main #page .prePage {
+    outline:none;
+    border: 0px;
+    background: #F8F8F8;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+main #page .prePage .iconprel {
+    font-size: 22px;
+    position: absolute;
+        top: 8px;
+    color: #999999;
+    cursor: pointer;
+}
+main #page .nextPage .iconRig {
+    font-size: 22px;
+    position: absolute;
+        top: 8px;
+    color: #999999;
+    cursor: pointer;
+}
+main #page .nextPage {
+    margin-left: 30px;
+    outline:none;
+    border: 0px;
+    background: #F8F8F8;
+    cursor: pointer;
+}
+main #page .total{
+    outline:none;
+    background: #F8F8F8;
+    border: 0px;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size:16px;
+    color: #666666;
+}
+/* hover */
+main #page .pageButton:hover{
+    background: #E12E35;
+    outline: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: 0px;
+    color: #F8F8F8;
+    cursor: pointer;
+}

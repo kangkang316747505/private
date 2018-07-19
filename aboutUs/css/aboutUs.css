@@ -1,0 +1,429 @@
+main .introduce {
+    width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+main .introduce .casetop .mapt {
+    margin-left: -30px;
+}
+
+/* main .introduce .casetop .mapt .btn {
+    color: #E33F46;
+} */
+
+main .introduce .casetop .mapt li {
+    height: 80px;
+    float: left;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 80px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+/* 企业介绍 */
+main .introduce .casetab .mapb li{
+    display: none;
+}
+main .introduce .casetab .mapb .lis1 {
+    display: block;
+}
+main .introduce .casetab .mapb li .vale img {
+    width: 1200px;
+    height: 500px;
+}
+
+main .introduce .casetab .mapb li .vale_p {
+    width: 1200px;
+}
+
+main .introduce .casetab .mapb li .vale_p h1 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+main .introduce .casetab .mapb li .vale_p p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 1);
+}
+
+main .introduce .casetab .mapb li .vale_p .intdia {
+    margin-left: 335px;
+    margin-top: 45px;
+    padding-bottom: 60px;
+}
+
+main .introduce .casetab .mapb li .vale_p h6 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 1);
+}
+/*公司动态*/
+main .introduce .casetab .mapb li .dynamic .dyimg{
+    width: 1200px;
+    height: 675px;
+    position: relative;
+}
+main .introduce .casetab .mapb li .dynamic .dyimg .imgs {
+    width: 1200px;
+    height: 675px;
+}
+main .introduce .casetab .mapb li .video1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dynamic p{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size:28px;
+    color:rgba(51, 51, 51, 1);
+}
+
+/* 发展历程 */
+
+main .introduce .casetab .mapb li .courseimg img {
+    width: 1200px;
+    height: 500px;
+}
+main .introduce .casetab .mapb li .course {
+    margin-top: 25px;
+}
+main .introduce .casetab .mapb li .zkyear {
+    margin-top: 25px;
+    margin-left: 200px;
+    padding-bottom: 25px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year {
+    margin-top: 55px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    margin-bottom: 40px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year .month {
+    padding-left: 25px;
+    color: #b0b0b0;
+    position: relative;
+    padding-bottom: 40px;
+    border-left: 1px solid #e0e0e0;
+    margin-left: 80px;
+    padding-top: 15px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year .month em {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    width: 62px;
+    position: absolute;
+    left: -44px;
+    top: -4px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year .month em .circular {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 9px;
+    background: #E33F46;
+}
+
+main .introduce .casetab .mapb li .zkyear .year .month p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+main .introduce .casetab .mapb li .zkyear .year .month .text {
+    margin-left: 30px;
+    margin-top: -20px;
+    padding-left: 70px;
+}
+
+
+/* 自营品牌介绍 */
+
+main .introduce .casetab .mapb li .ince .incey .ghf {
+    width: 1200px;
+    height: 400px;
+}
+main .introduce .casetab .mapb li .ince .incey{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+}
+main .introduce .casetab .mapb li .ince .incey .inceyMask{
+   background: #000000;
+   opacity: 0.5;
+   width: 1200px;
+   height: 400px;
+   position: absolute;
+   top: 0;
+}
+.ince p {
+    font-size: 30px;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+.campus .campusg{
+    margin-left: 50px;
+}
+.campus .campusg img {
+    width: 1100px;
+    height: 554px;
+}
+
+.campus .pop{
+    font-size: 30px;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    padding-top: 40px;
+    line-height: 30px;
+}
+.campus .pol {
+    width: 1100px;
+    margin-left: 50px;
+    font-size:16px;
+    color:rgba(153, 153, 153, 1);
+    line-height:32px;
+    margin-top: 17px;
+    padding-bottom: 60px;
+}
+main .casetab .mapb .magnier .magnier_T{
+    width: 1135px;
+    margin: 0 auto;
+    height: 640px;
+    overflow: hidden;
+}
+main .casetab .mapb .magnier .magnier_T .imkpo{
+    width: 1135px;
+    height: 640px;
+    cursor: pointer;
+}
+
+main .casetab .mapb .magnier .magnier_Z h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    font-size:26px;
+    color:rgba(51, 51, 51, 1);
+    font-weight: 400;
+    float: left;
+}
+main .casetab .mapb .magnier .magnier_Z h2 span{
+    font-size: 26px;
+    color: rgba(51, 51, 51, 1);
+}
+main .casetab .mapb .magnier .magnier_Z h2 .span2 {
+    margin-left: 20px;
+}
+main .casetab .mapb .magnier .magnier_B{
+    width: 1135px;
+    height: 205px;
+    margin: 20px auto;
+    margin-bottom: 135px;
+    padding-bottom: 50px;
+}
+main .casetab .mapb .magnier .magnier_B .mall{
+    width:23px;
+    height:40px;
+    float: left;
+    cursor: pointer;
+    margin-top: 50px;
+}
+main .casetab .mapb .magnier .magnier_B .malz{
+    width: 1088px;
+    height: 205px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+main .casetab .mapb .magnier .magnier_B .malz .big1{
+    margin-left: 35px;
+    height: 200px;
+    width: 230px;
+    float: left;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* main .casetab .mapb .magnier .magnier_B .malz .big1 .nths {
+    border: 1px solid #2a7bea;
+} */
+.big1 .glop{
+    width: 230px;
+    height: 130px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+main .casetab .mapb .magnier .magnier_B 
+.malz .big1 img{
+   width: 230px;
+   height: 130px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+main .casetab .mapb .magnier .magnier_B
+ .malz .big1 h1 {
+    width: 230px;
+    font-size:18px;
+    height: 20px;
+    font-weight: 400;
+    color:rgba(102, 102, 102, 1);
+    margin-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+main .casetab .mapb .magnier .magnier_B
+ .malz .big1 p {
+    font-size:16px;
+    color:rgba(153, 153, 153, 1);
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+main .casetab .mapb .magnier .magnier_B .malr{
+   width:23px;
+   height:40px;
+    float: right;
+    cursor: pointer;
+    margin-top: 50px;
+}
+/* 滚动效果 */
+.imvio {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ccc;
+}
+
+/* video样式 */
+
+.over {
+    width: 2000px;
+    height: 200px;
+    position: absolute;
+}
+.magnier_Z{
+    margin-bottom: 45px;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.videocont {
+    width: 1135px;
+    height: 640px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #252525;
+}
+.way{
+    display: none;
+}
+/* 遮盖层 */
+.maske{
+    width: 230px;
+    height: 130px;
+    background: #000000;
+    opacity: 0.4;
+    position: absolute;
+    top: 1px;
+    border-radius: 5px;
+    display: none;
+}
+/* 播放按钮 */
+.kop {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 35px;
+    display: none;
+    opacity: 1;
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+}
+/* 自营品牌视频 */
+.videosowb {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+.videosowb .videobrand {
+    width: 1000px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50% -50%);
+    -webkit-transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    -moz-transform: translate(-50% -50%);
+    -khtml-transform: translate(-50% -50%);
+    transform: translate(-50%,-50%);
+}
+
+.videosowb .videobrand {
+   
+    /* height: 380px;
+    background: transparent url('../img/dy.png') no-repeat;
+    background-size: 900px 380px; */
+}
+
+.videosowb span {
+    cursor: pointer;
+    position: absolute;
+    top: 13%;
+    right: 8%;
+    font-size: 30px;
+    color: rgb(177, 175, 175);
+}
+.spans {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50% -50%);
+    -webkit-transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    -moz-transform: translate(-50% -50%);
+    -khtml-transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 50px;
+    color: #FFFFFF;
+}
